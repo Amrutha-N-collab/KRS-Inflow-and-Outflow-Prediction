@@ -1,0 +1,20 @@
+Report
+
+
+ To Predict inflow and outflow at the KSR reservoir.
+
+ By evaluating the models based on metrics such as AUC (Area Under the ROC Curve), MSE (Mean Squared Error), MAE (Mean Absolute Error), and R², you highlight their effectiveness in handling different datasets. 
+
+
+• Inflow Prediction: The Random Forest model performed the best with an AUC of 0.94, 
+indicating high classification accuracy. Gradient Boosting followed closely with an 
+AUC of 0.92, showcasing its ability to handle complex, nonlinear data relationships 
+effectively. However, SVR had a significantly lower AUC of 0.73, indicating it was less 
+capable of accurately predicting inflow. 
+
+
+• Outflow Prediction: For outflow, Gradient Boosting achieved the highest AUC at 0.84, 
+suggesting it handled the outflow dataset well. SVR performed decently, achieving an 
+AUC of 0.81. However, Random Forest lagged behind, with an AUC of 0.77, indicating 
+it was less effective for outflow predictions compared to inflow.
+
